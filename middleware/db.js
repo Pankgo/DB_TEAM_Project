@@ -2,8 +2,8 @@ const mysql = require("mysql2/promise");
 
 const useDB = mysql.createPool({
     user : 'root',
-    password : '0000',
-    port : 15628,
+    password : '1234',
+    port : 3306,
     database : 'mydb'
 });
 
